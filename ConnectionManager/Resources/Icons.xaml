@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:ConnectionManager.Resources">
+
+
+    <!--Monitor-->
+    <Grid x:Key="IconMonitor" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Shared="False" Clip="F1 M 0,0L 76,0L 76,76L 0,76L 0,0">
+        <Path Stretch="Fill" Fill="White" Data="M71 0H4C1.791 0 0 1.791 0 4v45c0 2.209 1.791 4 4 4h22v4h-6.907c-2.229 0-4.033 1.783-4.083 4H58.99  c-0.051-2.217-1.854-4-4.083-4H49v-4h22c2.209 0 4-1.791 4-4V4C75 1.791 73.209 0 71 0z M72 47H3V4h69V47z"/>
+    </Grid>
+
+    <!--Double Chevron Up-->
+    <Canvas x:Key="DoubleIconChevronUp" Width="40" Height="40" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Shared="False" Clip="F1 M 0,0L 76,0L 76,76L 0,76L 0,0">
+        <Grid Canvas.Left="0" Canvas.Top="0" Width="37">
+            <Path Stretch="Fill" Fill="White" Data="F1 M 37.8516,35.625L 34.6849,38.7917L 23.6016,50.2708L 23.6016,39.9792L 37.8516,24.9375L 52.1016,39.9792L 52.1016,50.2708L 41.0182,38.7917L 37.8516,35.625 Z "/>
+        </Grid>
+        <Grid Canvas.Left="0" Canvas.Top="15" Width="37">
+            <Path Stretch="Fill" Fill="White" Data="F1 M 37.8516,35.625L 34.6849,38.7917L 23.6016,50.2708L 23.6016,39.9792L 37.8516,24.9375L 52.1016,39.9792L 52.1016,50.2708L 41.0182,38.7917L 37.8516,35.625 Z "/>
+        </Grid>
+    </Canvas>
+    
+</ResourceDictionary>

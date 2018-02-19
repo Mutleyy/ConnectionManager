@@ -1,0 +1,60 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:ConnectionManager.Resources">
+    <Color x:Key="MainFontColor">WhiteSmoke</Color>
+    <SolidColorBrush x:Key="MainFontBrush" Color="{StaticResource MainFontColor}"/>
+    <Color x:Key="SecondaryFontColor">#e8e8e8</Color>
+    <SolidColorBrush x:Key="SecondaryFontBrush" Color="{StaticResource SecondaryFontColor}"/>
+
+    <FontFamily x:Key="MainFontFamily">Arial</FontFamily>
+
+    <Color x:Key="MainColor">#003B49</Color>
+    <SolidColorBrush x:Key="MainBrush" Color="{StaticResource MainColor}"/>
+    <Color x:Key="MainColorSemiBright">#004f63</Color>
+    <SolidColorBrush x:Key="MainBrushSemiBright" Color="{StaticResource MainColorSemiBright}"/>
+    <Color x:Key="MainColorBright">#00647c</Color>
+    <SolidColorBrush x:Key="MainBrushBright" Color="{StaticResource MainColorBright}"/>
+    <Color x:Key="DarkColor">#001D24</Color>
+    <SolidColorBrush x:Key="MainBrushDark" Color="{StaticResource DarkColor}"/>
+    <Color x:Key="ActiveColor">Chartreuse</Color>
+    <SolidColorBrush x:Key="ActiveBrush" Color="{StaticResource ActiveColor}"/>
+
+    <Color x:Key="ButtonColorHover">#f0b663</Color>
+    <SolidColorBrush x:Key="ButtonBrushHover" Color="{StaticResource ButtonColorHover}"/>
+    <Color x:Key="ButtonColorPressed">#f08d00</Color>
+    <SolidColorBrush x:Key="ButtonBrushPressed" Color="{StaticResource ButtonColorPressed}"/>
+    <Color x:Key="ButtonColorDisabled">Gray</Color>
+    <SolidColorBrush x:Key="ButtonBrushDisabled" Color="{StaticResource ButtonColorDisabled}"/>
+
+    <LinearGradientBrush x:Key="GreenGradient" Opacity="1" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="Gold" Offset="1.0" />
+        <GradientStop Color="Chartreuse" Offset="0.5" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="RedGradient" Opacity="1" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#890000" Offset="1.0" />
+        <GradientStop Color="#E50000" Offset="0.5" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="YellowGradient" Opacity="1" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#E6BB13" Offset="1.0" />
+        <GradientStop Color="#FFDB19" Offset="0.5" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="ProgressBackgroundGradient" Opacity="0.3" >
+        <GradientStop Color="#002630" Offset="1.0" />
+        <GradientStop Color="#005063" Offset="0.0" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="ScrollBarBackgroundGradient" Opacity="0.3" >
+        <GradientStop Color="#002630" Offset="0.0" />
+        <GradientStop Color="#005063" Offset="0.5" />
+        <GradientStop Color="#002630" Offset="1.0" />
+    </LinearGradientBrush>
+
+    <DropShadowEffect x:Key="BlackShadow" 
+                      ShadowDepth="0"
+                      Color="Black"
+                      Opacity="1"
+                      BlurRadius="30"/>
+</ResourceDictionary>
